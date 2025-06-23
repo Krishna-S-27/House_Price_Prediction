@@ -1,22 +1,45 @@
-This is Porject done for the course of Machine Learning by Ramaiah Institue of Technology
+🏠 House Price Prediction using Machine Learning
+This project was developed as part of the Machine Learning course at M. S. Ramaiah Institute of Technology. It was a team effort involving two members, focusing on building a full machine learning pipeline for predicting house prices using real-world data.
 
-This is a implementation of House price prediction using Random Forest Regressor, Linear Regression, Rigid Regression, XGBOOST, GradiantBoost.
+📌 Overview
+This system predicts house prices based on user-input features like the number of bedrooms, square footage, etc. We experimented with multiple regression models:
+✅ Gradient Boosting Regressor (Best performer – 99.86% accuracy)
+Random Forest Regressor
+XGBoost
+Ridge Regression
+Linear Regression
+The dataset used is the King County House Sales dataset (USA).
+For deeper insights, we’ve also included a research paper analyzing our model performance and methodology.
 
-we have acchived of 99.86% of accuracy using Gradiant Boosting. for more details you check your work for the research paper that we have subbmited int this folder.
+🚀 Getting Started
+🔧 Requirements
+Python 3.x
+Required packages listed in requirements.txt
 
-to run this project in local host:
+💻 Run Locally
+Step 1: Clone the repository
+git clone https://github.com/Krishna-S-27/House_Price_Prediction.git
+cd House_Price_Prediction
 
-1. if the data file are missing then you have to tain the model so to do that you just need to run
-   in environment python model_training.py
+Step 2: Install dependencies
+pip install -r requirements.txt
 
-note you have to download all requirements from requirements.txt
-for this you can run pip install -r requirements.txt in your terminal.
+Step 3: Train the model (if model file is missing)
+python model_training.py
 
-2. for deploy you simple run streamlit run app.py in your terminal.
+Step 4: Run the Streamlit app
+streamlit run app.py
 
-it will open a web page where you can input the house details and it will give you the price of the house..
+This will open a local web interface in your browser where you can enter house features and get an instant price prediction.
 
-if any doubt to run you can contact us on
-githun: github.com/Krishna-S-27
-instagram: itskrrisshhh
-Email: krishnashalawadi27@gmail.com
+📄 Research Paper
+A detailed research paper is included in the repository. It outlines our data preprocessing, feature selection, model tuning, and results comparison. We recommend reviewing it for a complete understanding of our approach.
+
+📬 Contact
+If you have any questions or need help running the project, feel free to reach out:
+
+📧 Email: krishnashalawadi27@gmail.com
+
+💻 GitHub: Krishna-S-27
+
+📷 Instagram: @itskrrisshhh
