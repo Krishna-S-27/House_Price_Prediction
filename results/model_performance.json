@@ -1,0 +1,60 @@
+{
+    "Linear Regression": {
+        "R2 Score": 0.9498,
+        "RMSE": 44648.98,
+        "MAE": 32500.2,
+        "Accuracy (%)": 94.98,
+        "Best Params": {
+            "selector__k": "all"
+        }
+    },
+    "Ridge Regression": {
+        "R2 Score": 0.9498,
+        "RMSE": 44634.97,
+        "MAE": 32500.55,
+        "Accuracy (%)": 94.98,
+        "Best Params": {
+            "regressor__alpha": 0.1,
+            "selector__k": "all"
+        }
+    },
+    "Random Forest": {
+        "R2 Score": 0.9975,
+        "RMSE": 9897.01,
+        "MAE": 3179.78,
+        "Accuracy (%)": 99.75,
+        "Best Params": {
+            "regressor__max_depth": null,
+            "regressor__min_samples_split": 2,
+            "regressor__n_estimators": 200,
+            "selector__k": 10
+        }
+    },
+    "XGBoost": {
+        "R2 Score": 0.9983,
+        "RMSE": 8267.16,
+        "MAE": 4729.91,
+        "Accuracy (%)": 99.83,
+        "Best Params": {
+            "regressor__colsample_bytree": 1.0,
+            "regressor__learning_rate": 0.1,
+            "regressor__max_depth": 6,
+            "regressor__n_estimators": 200,
+            "regressor__subsample": 0.8,
+            "selector__k": 10
+        }
+    },
+    "Gradient Boosting": {
+        "R2 Score": 0.9986,
+        "RMSE": 7534.18,
+        "MAE": 4500.45,
+        "Accuracy (%)": 99.86,
+        "Best Params": {
+            "regressor__learning_rate": 0.1,
+            "regressor__max_depth": 6,
+            "regressor__min_samples_split": 2,
+            "regressor__n_estimators": 200,
+            "selector__k": 10
+        }
+    }
+}

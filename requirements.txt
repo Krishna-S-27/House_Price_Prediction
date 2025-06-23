@@ -1,0 +1,10 @@
+# Core Libraries
+numpy
+pandas
+matplotlib
+seaborn
+joblib
+json5
+scikit-learn
+xgboost
+streamlit
